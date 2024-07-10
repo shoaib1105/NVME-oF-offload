@@ -21,9 +21,10 @@ echo "1. enabling nvme modules"
 
 modprobe -rv nvme
 
+modprobe nvmet
+
 modprobe nvme num_p2p_queues=3
 
-modprobe nvmet
 
 #modprobe nvmet-rdma offload_mem_start=0xf00000000 offload_mem_size=2048 offload_buffer_size=512
 
