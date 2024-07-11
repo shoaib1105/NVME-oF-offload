@@ -1,3 +1,9 @@
+sudo apt update
+
+apt install nvme-cli
+
+sudo su
+
 modprobe nvme
 
 modprobe nvme-rdma
