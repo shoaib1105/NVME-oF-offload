@@ -32,7 +32,7 @@ modprobe nvmet-rdma
 
  
 
-echo "2. enable subsystem-1 port 1 IP 10.0.1.2 - NVME target offload"
+echo "2. enable subsystem-1 port 1 IP 10.0.1.2 - NVME target offloaded"
 
  
 
@@ -64,7 +64,7 @@ ln -s /sys/kernel/config/nvmet/subsystems/testsubsystem/ /sys/kernel/config/nvme
 
  
 
-echo "3. enable subsystem-2 port 2 IP 10.0.2.2 - NVME target not offload"
+echo "3. enable subsystem-2 port 2 IP 10.0.2.2 - NVME target not offloaded"
 
  
 
